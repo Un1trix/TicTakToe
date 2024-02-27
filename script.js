@@ -105,13 +105,13 @@ let checkWinner = () => {
 moves.forEach((move) => {
     move.addEventListener("click", () => {
         if (turn0 == true) {
-            move.innerText = "O";
+            move.innerText = "o";
             turn0 = false;
             move.style.color = "skyblue";
 
         }
         else {
-            move.innerText = "X";
+            move.innerText = "x";
             turn0 = true;
             move.style.color = "#ffffff";
         }
