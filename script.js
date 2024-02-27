@@ -113,7 +113,7 @@ moves.forEach((move) => {
         else {
             move.innerText = "X";
             turn0 = true;
-            move.style.color = "#FF2E63";
+            move.style.color = "#white";
         }
         move.disabled = true;
         checkWinner();
